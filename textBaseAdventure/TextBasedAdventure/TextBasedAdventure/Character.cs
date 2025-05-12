@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace TextBasedAdventure
 {
-    internal class Program
-    {
-        static void Main(string[] args)
+    
+    public class Character
+    { 
+        public string Name { get; set; }
+        public Character(string name)
         {
-            Command test = new Command("void");
-        }
+            Name = name;
+        } 
     }
 }
