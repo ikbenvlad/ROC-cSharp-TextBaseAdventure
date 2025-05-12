@@ -12,10 +12,10 @@ namespace TextBasedAdventure
         public string CommandName { get; set; }
         public int Accessor { get; set; }
         public Action executeCommand { get; set; }
-        public Command(string commandInfo)
+        public Command(string commandInfo, string commandName)
         {
             CommandInfo = commandInfo;
-            CommandName = commandInfo.Split(' ')[0];
+            CommandName = commandName;
             Accessor = 0;
             executeCommand = () => { };
         }
