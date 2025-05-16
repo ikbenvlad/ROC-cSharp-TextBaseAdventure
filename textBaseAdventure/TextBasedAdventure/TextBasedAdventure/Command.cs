@@ -11,13 +11,14 @@ namespace TextBasedAdventure
         public string CommandInfo { get; set; }
         public string CommandName { get; set; }
         public int Accessor { get; set; }
-        public Action executeCommand { get; set; }
-        public Command(string commandInfo, string commandName)
+        public Action ExecuteCommand { get; set; }
+
+        public Command(string commandInfo, string commandName, int accessor, Action executeCommand)
         {
             CommandInfo = commandInfo;
             CommandName = commandName;
-            Accessor = 0;
-            executeCommand = () => { };
+            Accessor = accessor;
+            ExecuteCommand = executeCommand;
         }
     }
 }
