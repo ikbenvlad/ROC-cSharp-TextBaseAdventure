@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace TextBasedAdventure
 {
-    internal class Program
+    class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Command test = new Command("void");
+            Npc persoon = new Npc(" npcnaam", "Must've been the wind");
+            persoon.Talk();
         }
     }
 }
