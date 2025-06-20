@@ -1,0 +1,195 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+    public class Nightmare
+    {
+        public static void NightmareStart()
+        {
+            Console.Clear();
+            Console.WriteLine("You wake up in a desert.");
+            Thread.Sleep(2500);
+            Console.Clear();
+            Thread.Sleep(1000);
+            Console.WriteLine("Crawling.");
+            Thread.Sleep(2500);
+            Console.WriteLine("Sweating.");
+            Thread.Sleep(2500);
+            Console.WriteLine("In dire need of water.");
+            Thread.Sleep(2500);
+            Console.Clear();
+            Thread.Sleep(1000);
+            Console.WriteLine("You see a figure in the distance.");
+            Thread.Sleep(2500);
+            Console.WriteLine("You crawl towards it, hoping they have water.");
+            Thread.Sleep(2500);
+            Console.WriteLine("You notice it's your mother.");
+            Thread.Sleep(2500);
+            Console.Clear();
+            Thread.Sleep(1000);
+            Console.WriteLine("You yell out, but she doesn't hear you.");
+            Thread.Sleep(2500);
+            Console.Clear();
+            Thread.Sleep(3000);
+            Console.WriteLine("You try to crawl faster, but your body is weak.");
+            Thread.Sleep(2500);
+            Console.Clear();
+            Thread.Sleep(3000);
+            Console.WriteLine("She walks away.");
+            Thread.Sleep(2500);
+            Console.WriteLine("Nightmare ending.");
+            Thread.Sleep(1000);
+            Console.WriteLine("Thank you for playing.");
+        }
+
+        public static void Coma()
+        {
+            Console.Clear();
+            Console.WriteLine("You wake up in a desert.");
+            Thread.Sleep(2500);
+            Console.Clear();
+            Thread.Sleep(1000);
+            Console.WriteLine("Crawling.");
+            Thread.Sleep(2500);
+            Console.WriteLine("Sweating.");
+            Thread.Sleep(2500);
+            Console.WriteLine("In dire need of water.");
+            Thread.Sleep(2500);
+            Console.Clear();
+            Thread.Sleep(1000);
+            Console.WriteLine("You see a figure in the distance.");
+            Thread.Sleep(2500);
+            Console.WriteLine("You crawl towards it, hoping they have water.");
+            Thread.Sleep(2500);
+            Console.WriteLine("You notice it's your mother.");
+            Thread.Sleep(2500);
+            Console.Clear();
+            Thread.Sleep(1000);
+            Console.WriteLine("You yell out, but she doesn't hear you.");
+            Thread.Sleep(2500);
+            Console.Clear();
+            Thread.Sleep(3000);
+            Console.WriteLine("You try to crawl faster, but your body is weak.");
+            Thread.Sleep(2500);
+            Console.Clear();
+            Thread.Sleep(3000);
+            Console.WriteLine("She walks away.");
+            Thread.Sleep(2500);
+            Console.Clear();
+            Thread.Sleep(3000);
+            Console.WriteLine(".");
+            Thread.Sleep(1000);
+            Console.WriteLine(".");
+            Thread.Sleep(1000);
+            Console.WriteLine(".");
+            Thread.Sleep(2500);
+            Console.Clear();
+            Thread.Sleep(1000);
+            Console.WriteLine("You wake up in a hospital bed.");
+            Thread.Sleep(2500);
+            Console.Clear();
+            Thread.Sleep(1000);
+            Console.WriteLine("The bright lights blinding your vision.");
+            Thread.Sleep(2500);
+            Console.WriteLine("The chattering of multiple voices fills your head.");
+            Thread.Sleep(2500);
+            Console.WriteLine("You try to move, but your body is weak.");
+            Thread.Sleep(2500);
+            Console.Clear();
+            Thread.Sleep(1000);
+            Console.WriteLine("You hear beeping, and feet shuffling in your direction.");
+            Thread.Sleep(2500);
+            Console.WriteLine("A doctor comes into view, looking at you with concern.");
+            Thread.Sleep(2500);
+            Console.Clear();
+            Thread.Sleep(1000);
+            Console.WriteLine("You try to speak, but your throat is dry and sore.");
+            Thread.Sleep(2500);
+            Console.WriteLine("The doctor tells you that you were in a coma for 3 days.");
+            Thread.Sleep(2500);
+            Console.WriteLine("You hit your head when you fell down the stairs, but you will recover.");
+            Thread.Sleep(3000);
+            Console.Clear();
+            Thread.Sleep(1000);
+            Console.WriteLine("With a dry throat, you ask for a glass of water.");
+            Thread.Sleep(2500);
+            Console.WriteLine("The doctor nods and leaves the room to get you some water.");
+            Thread.Sleep(2500);
+            Console.Clear();
+            Thread.Sleep(1000);
+            Console.WriteLine(".");
+            Thread.Sleep(1000);
+            Console.WriteLine(".");
+            Thread.Sleep(1000);
+            Console.WriteLine(".");
+            Thread.Sleep(1000);
+            Console.Clear();
+            Console.WriteLine("Ahh, finally some water.");
+            Thread.Sleep(2500);
+            Console.WriteLine("You drink the water, feeling refreshed.");
+            Thread.Sleep(2500);
+            Console.WriteLine("Was it worth hitting your head for?");
+            Thread.Sleep(2500);
+            Console.WriteLine("Maybe, maybe not.");
+            Thread.Sleep(2500);
+            Console.WriteLine("Coma ending.");
+            Thread.Sleep(1000);
+            Console.WriteLine("Thank you for playing.");
+        }
+
+        public static void FlashOn()
+        {
+            Console.ForegroundColor = ConsoleColor.DarkRed;
+            Thread.Sleep(1000);
+            Console.Clear();
+            Thread.Sleep(1000);
+            Console.WriteLine($"Bad decicion, {Program.Name}!");
+            Thread.Sleep(3000);
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Gray;
+            Thread.Sleep(1000);
+            Console.WriteLine("You gently open the door.");
+            Thread.Sleep(2500);
+            Console.Clear();
+            Thread.Sleep(1000);
+            Console.WriteLine(".");
+            Thread.Sleep(1000);
+            Console.WriteLine(".");
+            Thread.Sleep(1000);
+            Console.WriteLine(".");
+            Thread.Sleep(2500);
+            Console.Clear();
+            Console.WriteLine("Your mother wakes up.");
+            Thread.Sleep(2500);
+            Console.WriteLine("She looks at you with a blank stare.");
+            Thread.Sleep(2500);
+            Console.WriteLine("You try to speak, but she doesn't respond.");
+            Thread.Sleep(2500);
+            Console.WriteLine("You feel a chill run down your spine.");
+            Thread.Sleep(2500);
+            Console.WriteLine("You try to shake it off, but the feeling lingers.");
+            Thread.Sleep(3000);
+            Console.Clear();
+            Thread.Sleep(1000);
+            Console.WriteLine("Your mother stands up.");
+            Thread.Sleep(2500);
+            Console.WriteLine("She walks towards you, her eyes fixed on you.");
+            Thread.Sleep(2500);
+            Console.WriteLine("You try to back away, but you can't move.");
+            Thread.Sleep(2500);
+            Console.WriteLine("You feel a cold hand on your shoulder.");
+            Thread.Sleep(3000);
+            Console.Clear();
+            Thread.Sleep(1000);
+            Console.WriteLine("'What are you doing here.'");
+            Thread.Sleep(3000);
+            Console.WriteLine("Cooked ending");
+            Thread.Sleep(1000);
+            Console.WriteLine("Thank you for playing.");
+        }
+    }
+}
