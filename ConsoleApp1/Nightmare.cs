@@ -185,8 +185,10 @@ namespace ConsoleApp1
             Thread.Sleep(3000);
             Console.Clear();
             Thread.Sleep(1000);
-            Console.WriteLine("'What are you doing here.'");
+            Console.ForegroundColor = ConsoleColor.DarkRed;
+            Console.WriteLine("Mother: What are you doing here.");
             Thread.Sleep(3000);
+            Console.ForegroundColor = ConsoleColor.Gray;
             Console.WriteLine("Cooked ending");
             Thread.Sleep(1000);
             Console.WriteLine("Thank you for playing.");
